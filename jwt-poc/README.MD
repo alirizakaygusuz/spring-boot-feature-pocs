@@ -201,7 +201,7 @@ com.alirizakaygusuz.jwt_poc
 ## 📡 API Testing
 
 A Postman collection is prepared for this project:  
-[**Exception-POC Postman Collection**](https://www.postman.com/lunar-module-operator-48760766/springbootprojects/folder/c3hlkd3/spring-boot-feature-pocs?action=share&creator=39285790)
+[**Jwt-POC Postman Collection**](https://www.postman.com/lunar-module-operator-48760766/springbootprojects/folder/c3hlkd3/spring-boot-feature-pocs?action=share&creator=39285790)
 
 ---
 
