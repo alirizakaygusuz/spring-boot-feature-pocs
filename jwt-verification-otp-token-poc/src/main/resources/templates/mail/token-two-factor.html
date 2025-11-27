@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body style="text-align: center; font-family: Arial, sans-serif">
+
+<h3 th:text="${messages.subject}"></h3>
+<p th:text="${messages.description}"></p>
+
+<h2 style="font-size: 32px; letter-spacing: 4px;" th:text="${payload.tokenValue}"></h2>
+
+<p th:if="${messages.expiresText}" th:text="${messages.expiresText}"></p>
+
+</body>
+</html>

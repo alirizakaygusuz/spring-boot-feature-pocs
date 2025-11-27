@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: jwt-verification-otp-token-poc
+
+  profiles:
+    active: prod
+
+jwt:
+  secret-key: ${JWT_SECRET_KEY:change-me}
+
+  access:
+    ttl-minutes: 15
+
+  refresh:
+    rotation-enabled: true
+    ttl-days: 7
+    cleanup-days: 30
+
+verification:
+  ttl-minutes: 240
+  delete-after-days: 7
+
+otp:
+  ttl-seconds: 180
+  delete-after-days: 30
+  max-attempts: 3
+
+system:
+  auth:
+    name: ${SYSTEM_AUTH_USER_NAME:system}
+    password: ${SYSTEM_AUTH_USER_PASSWORD:system}
+
+app:
+  mail:
+    from: ${MAIL_FROM}

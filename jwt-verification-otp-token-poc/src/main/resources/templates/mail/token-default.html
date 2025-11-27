@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body style="text-align: center; font-family: Arial, sans-serif">
+
+<h3 th:text="${messages.subject}"></h3>
+<p th:text="${messages.description}"></p>
+
+<a th:href="${actionUrl}"
+   style="padding:10px; background-color:blue; color:white; text-decoration:none;">
+    <span th:text="${messages.buttonLabel != null ? messages.buttonLabel : 'Verify'}"></span>
+</a>
+
+<p th:if="${messages.expiresText}" th:text="${messages.expiresText}"></p>
+
+</body>
+</html>
