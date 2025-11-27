@@ -365,6 +365,7 @@ A Postman collection is prepared for this project:
    - Keeps the token tables small and the system clean in the long run
 
 
+
 ## ✍️ Author
 **Ali Rıza Kaygusuz**  
 💻 Java Backend Developer 
@@ -376,3 +377,4 @@ A Postman collection is prepared for this project:
 ## 📄 License
 
 This project is licensed under the **MIT License**.
+
